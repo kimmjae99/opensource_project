@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-qf#@n33ob@mg7jszgnrjdm67%5kil2@8(7cs6b#y257ptak8hr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', '.pythonanywhere.com']
 
 # CORS 관련 추가
 CORS_ALLOW_CREDENTIALS = True
